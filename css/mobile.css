@@ -1,0 +1,14 @@
+@media (max-width:991px){
+    .header-top--content{
+        height: auto;    
+    }
+    .collapse:not(.show){
+        display: none !important;
+    }
+    .logo__img{
+        width: 30px;
+    }
+    .logo-text{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,73 @@
+@import url('./base.css');
+
+/* HEADER */
+
+/* header-top */
+.header__top{
+    background-color: #eef1f3;
+}
+.header-top--content{
+    height: 100px;    
+}
+.logo-text{
+    font-size: 30px;
+    font-family: "Quicksand";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 0.933;
+    text-align: left;
+}
+.logo-text--item{
+    color: #0674ec;
+}
+
+.navbar-collapse{
+    flex-grow: unset !important;
+}
+.header__btn{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    padding: 13px 18px;
+}
+.notification{
+    position: relative;
+}
+.notification i{
+    color: rgb(126, 143, 161);
+}
+.notification-text{
+    position: absolute;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    top: -7px;
+    left: 14px;
+}
+.notification__alarm .notification-text{
+    background-color: #ff6a6c;
+    left: 14px;
+}
+.notification__message .notification-text{
+    background-color: #62d03b;
+    left: 21px;
+}
+.notification__shop .notification-text{
+    left: 18px;
+}
+.header__circle{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(124, 121, 121);
+}
+.header-time--title,.header-time--subtitle{
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.375;
+    font-weight: 500;
+}
+.header-time--subtitle{
+    font-weight: 400;
+}
