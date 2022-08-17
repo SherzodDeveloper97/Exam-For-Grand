@@ -44,17 +44,20 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse d-flex justify-content-center mb-4 mt-4 mt-lg-0 mb-lg-0" id="navbarSupportedContent">
-    
+                        <div class="collapse navbar-collapse d-flex justify-content-center mb-4 mt-4 mt-lg-0 mb-lg-0"
+                            id="navbarSupportedContent">
+
                             <button class="btn btn-primary header__btn rounded-5 me-lg-5 me-5">Become a Seller</button>
                             <div class="notifications__block d-flex align-items-center me-5 me-lg-0">
                                 <div class="notification__alarm notification me-5">
                                     <i class="bi bi-bell fs-4"></i>
-                                    <span class=" notification-text badge badge-light text-white rounded-circle">25</span>
+                                    <span
+                                        class=" notification-text badge badge-light text-white rounded-circle">25</span>
                                 </div>
                                 <div class="notification__message notification me-5">
                                     <i class="bi bi-envelope fs-4"></i>
-                                    <span class=" notification-text badge badge-light text-white rounded-circle">6</span>
+                                    <span
+                                        class=" notification-text badge badge-light text-white rounded-circle">6</span>
                                 </div>
                                 <div class="notification__shop notification me-lg-2">
                                     <i class="bi bi-cart3 fs-4"></i>
@@ -62,7 +65,7 @@
                                         class=" notification-text badge bg-primary badge-light text-white rounded-circle">2</span>
                                 </div>
                             </div>
-    
+
                             <div class="header-time d-flex align-items-center ms-lg-5">
                                 <div class="header__circle rounded-circle me-4"></div>
                                 <div class="header-time--item">
@@ -70,13 +73,46 @@
                                     <p class="header-time--subtitle text-primary">$20.45</p>
                                 </div>
                             </div>
-    
+
                         </div>
-                    </div> 
+                    </div>
                 </nav>
             </div>
         </div>
         <!-- /header-top -->
+
+        <!-- header-nav -->
+        <div class="header-nav">
+            <div class="container">
+                <div class="header-nav--inner row justify-content-between align-items-center">
+                    <div class="header__menu col-auto">
+                        <ul class="menu__list d-flex align-items-center">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">HOME</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">all products</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">wordpress</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">festures</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Pages</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="#" method="post" class="header-search col-auto">
+                        <input type="text" class="header-search--input" placeholder="Search product here...">
+                        <button class="header-search--btn bg-primary" type="button" id="button-addon2"><i
+                                class="bi bi-search text-white"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /header-nav -->
     </header>
     <!-- /HEADER -->
     <script src="./libs/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
